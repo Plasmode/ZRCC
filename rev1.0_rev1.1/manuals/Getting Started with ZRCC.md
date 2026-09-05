@@ -1,4 +1,4 @@
-# Getting Started with ZRCC
+# Getting Started with ZRCC Rev1.1
 ### Introduction
 This document is intended for two groups of audiences: hobbyists who have built ZRCC from scratch, and hobbyists who have purchased an assembled and tested ZRCC. The first part of the document is for hobbyists who have built ZRCC from scratch. 
 
