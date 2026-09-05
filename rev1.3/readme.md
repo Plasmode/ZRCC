@@ -1,8 +1,18 @@
 ZRCC rev1.3 replaced the 55nS 128K RAM with 25 nS RAM and change the IDE44 interface to accept disk-on-module. Rev1.3 explores overclocking Z80 to 33MHz.
 
+![rev1.3top](ZRCC_rev1_3_topview.jpg)
+### Features
+- Z80 running at 22MHz
+- 128K banked RAM, 512K optional
+- EPM7064S CPLD
+- Compact flash drive
+- CP/M-ready
+- 26-pin I/O expansion (RC2014-lite)
+- Optional I2C bus
+- 84mm x 51mm 2-layer pc board
 
 
-
+![rev1.3annotated](zrcc_r1_3_topview_annotated.jpg)
 ### Design Files
 - Schematic
 
