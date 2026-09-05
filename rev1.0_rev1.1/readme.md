@@ -6,12 +6,11 @@ I like the idea of a low-cost Z80 running CP/M with minimum component count, but
 
 ### Features
 - Z80 running at 22MHz
-- 128K banked RAM, 512K optional
+- 128K banked RAM
 - EPM7064S CPLD
 - Compact flash drive
 - CP/M-ready
 - 26-pin I/O expansion (RC2014-lite)
-- Optional I2C bus
 - 84mm x 51mm 2-layer pc board
 ### Theory of Operation
 The heart of ZRCC is the EPM7064S CPLD. It contains a 64-byte boot ROM, a buffered shift register that serves as simple serial receiver, and decoding logic. At powerup, the Z80 executes the small ROM code which continuously polls the compact flash READY signal and the serial port receive ready flag. If serial receive ready flag is set, then it jumps into the serial bootstrap routine that loads 256 serial data into memory starting from 0xB000 and jump into 0xB000 after the 256th serial data is received.
