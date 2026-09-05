@@ -1,9 +1,9 @@
 # ZRCC Rev1.0 and Rev1.1
 Rev 1.1 and rev1.0 are the same except rev1.0 requires an engineering change.
-![rev1.0](ZRCC_rev1_0_topview.jpg)
+![rev1.1](ZRCC_rev1_1_topview.jpg)
 
 I like the idea of a low-cost Z80 running CP/M with minimum component count, but I don't like Z80 having to share the spot light with a processor many times its performance. So instead of using a powerful modern microcontroller as the I/O processor, I used a CPLD instead. The CPLD is Altera EPM7064S which is compatible with Atmel ATF1504. The CPLD's logic fabric can emulate a small ROM, 64 bytes, a simple serial port, and glue logic functions. The small ROM is enough to load program from the compact flash disk into RAM and execute. In case the compact flash is new and un-initialized, the ROM can also read in program from the serial port to initialize the new CF disk and load it with boot program. Beside the internal ROM, the CPLD also implemented a simple serial receiver and bit-bang serial transmitter. The serial receiver is just glorified shift register with fixed baud rate and protocol, 115200-N-8-1. The remaining CPLD is glue logic.
-
+![rev1_1_annotated](zrcc_rev1_1_topview_annotated.jpg)
 ### Features
 - Z80 running at 22MHz
 - 128K banked RAM
