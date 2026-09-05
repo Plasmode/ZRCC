@@ -1,6 +1,6 @@
 # Getting Started with ZRCC
 ### Introduction
-This document is intended for two groups of audiences: hobbyists who have built ZRCC from scratch, and hobbyists who have purchased an assembled and tested ZRCC. The first part of the document is for hobbyists who have built ZRCC from scratch. Skip to here for ZRCC that's already assembled and tested.
+This document is intended for two groups of audiences: hobbyists who have built ZRCC from scratch, and hobbyists who have purchased an assembled and tested ZRCC. The first part of the document is for hobbyists who have built ZRCC from scratch. 
 
 ### Assemble a ZRCC
 Refer to the Pictorial Assembly Guide for step-by-step assembly of the board
