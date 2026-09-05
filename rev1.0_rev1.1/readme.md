@@ -34,13 +34,20 @@ Because it takes a moment for the CF disk to be ready after reset, the user can 
 - [SCMonitor+StarTrek](software/zrcc_rev1_software_scmonitor_startrek.hex). This is Steve Cousin's SCMonitor ported to ZRCC. This is Steve Cousin's homepage. As an extra bonus, it includes the StarTrek program in BASIC. To install SCMonitor+StarTrek, send scmonitor_startrek.hex to ZRCC and type 'c1' to install it in track 0 of CF disk. Once it is installed, type 'b1' to load and run SCMonitor. To run Startrek in BASIC, type 'wbasic', then 'run'. Have fun! Youtube video of running Startrek in ZRCC using a TeraTerm macro file. This is the TeraTerm macro program
 - [CP/M2.2 BIOS/CCP/BDOS](software/zrcc_rev1_software_cpm22all.hex). This is CP/M2.2 BIOS/CCP/BDOS all in a file. To install it, send cpm22all.hex to ZRCC and type 'c2' to install it in track 0 of CF disk. Once it is installed, type 'b2' to load and run CP/M2.2
 - [XMODEM.HEX](software/cpm_software_xmodem.hex). This is the very first program in a new ZRCC CF disk. Install CP/M2.2 above first, then while in ZRCC Monitor, send xmodem.hex to ZRCC; then type 'b2' to enter CP/M2.2; then type 'save 17 xmodem.com' at CP/M prompt. This will save the RAM image into a file called xmodem.com.
-- unarj.com. This is file decompression program running in CP/M. Use it to decompress .arj files
-- cpm22dri. This is the CP/M2.2 distribution files from Digital Research. Use unarj.com to decompress it.
-- CP/M3 Loader. This is loader for CP/M3. It expects CPM3.SYS in drive A of the CF disk. To install it, send CPM3LDR.HEX to ZRCC and type 'c3' to install it in track 0 of CF disk. Once it is installed, type 'b3' to boot CP/M3.
-- CPM3ALL. This is the CP/M 3 distribution files. Use unarj.com to decompress it.
-- CPM3 banked BIOS source code, assembled with zmac
-- Installation macro for ZRCC CF disk. This zipped file contains all the files installed in a released ZRCC disk. The installation macro runs in TeraTerm and expects all files in directory c:\teraterm\zrcc Run the macro once ZRCC is in serial bootstrap mode.
-- Image of CF installed using the above TeraTerm macro file. Unzip the file and use disk copy tool like Win32DiskImager to copy the image to CF disk 64MB or larger
+- [unarj.com](software/unarj.zip). This is file decompression program running in CP/M. Use it to decompress .arj files
+- [cpm22dri](software/cpm22dri.zip). This is the CP/M2.2 distribution files from Digital Research. Use unarj.com to decompress it.
+- [CP/M3 Loader](software/cpm3ldr.hex). This is loader for CP/M3. It expects CPM3.SYS in drive A of the CF disk. To install it, send CPM3LDR.HEX to ZRCC and type 'c3' to install it in track 0 of CF disk. Once it is installed, type 'b3' to boot CP/M3.
+- [CPM3ALL](software/cpm3all.zip). This is the CP/M 3 distribution files. Use unarj.com to decompress it.
+- CPM3 [banked BIOS](software/z80sbc64_cpm3.zip) source code, assembled with zmac
+- Installation macro for ZRCC CF disk. [This zipped file](software/zrcc_install_all.zip) contains all the files installed in a released ZRCC disk. The installation macro runs in TeraTerm and expects all files in directory c:\teraterm\zrcc Run the macro once ZRCC is in serial bootstrap mode.
+- [Image of CF](software/zrcc_cf_installed.zip) installed using the above TeraTerm macro file. Unzip the file and use disk copy tool like Win32DiskImager to copy the image to CF disk 64MB or larger
 
 ### Manuals
 - Getting started with ZRCC
+- ZRCC Monitor User manual
+- Pictorial Assembly Guide for ZRCC, rev 1
+- Installing a new CF disk. Only need to do this once. The CF disk effectively serve as the system EPROM. This installation process loads the CF disk.
+- CF Layout map. This document shows where various software are stored on the compact flash disk.
+- Video of installing a new CF disk using a TeraTerm macro.
+- Fun with ZRCC, projects you can do with ZRCC
+
