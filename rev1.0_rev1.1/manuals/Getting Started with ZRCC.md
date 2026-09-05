@@ -13,10 +13,10 @@ Once the board is fully assembled and populated with IC, continue to the steps b
 
 ZRCC requires regulated 5V, 250mA power from a 2.1mmX5.5mm power plug. The center lead is 5V and the barrel is ground. ZRCC also requires an USB-to-serial adapter. The inexpensive 6-pin CP2102 adapter is recommended because ZRCC's serial port header is design specifically for it.
 
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_cp2102_6-pin.jpg
+![cp2102_6pin](cp2102_6-pin.jpg)
 
 Set up the serial port emulator to 115200 N81, no handshake. For Windows users, TeraTerm is recommended. The CF disk is already loaded with software so when powered up, it wil display the following message:
-
+```
 ZRCC Monitor v0.3 4/25/20
 
 
@@ -92,5 +92,5 @@ BNKBDOS3 SPR 4900 2E00
 Copyright 1979 © by Digital Research
 CP/M 3 for Z80SBCRC, no RAMdisk 11/9/18 Banked version
 A>
-
+```
 
