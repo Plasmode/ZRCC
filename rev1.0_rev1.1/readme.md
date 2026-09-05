@@ -1,5 +1,5 @@
-# ZRCC Rev1.0
-Rev 1.0 is obsolete.  It is archived here.
+# ZRCC Rev1.0 and Rev1.1
+Rev 1.1 and rev1.0 are the same except rev1.0 requires an engineering change.
 ![rev1.0](ZRCC_rev1_0_topview.jpg)
 
 I like the idea of a low-cost Z80 running CP/M with minimum component count, but I don't like Z80 having to share the spot light with a processor many times its performance. So instead of using a powerful modern microcontroller as the I/O processor, I used a CPLD instead. The CPLD is Altera EPM7064S which is compatible with Atmel ATF1504. The CPLD's logic fabric can emulate a small ROM, 64 bytes, a simple serial port, and glue logic functions. The small ROM is enough to load program from the compact flash disk into RAM and execute. In case the compact flash is new and un-initialized, the ROM can also read in program from the serial port to initialize the new CF disk and load it with boot program. Beside the internal ROM, the CPLD also implemented a simple serial receiver and bit-bang serial transmitter. The serial receiver is just glorified shift register with fixed baud rate and protocol, 115200-N-8-1. The remaining CPLD is glue logic.
@@ -20,16 +20,13 @@ If CF READY is detected, it jumps into the CF bootstrap routine that reads the 2
 Because it takes a moment for the CF disk to be ready after reset, the user can wait a second for the CF disk to be ready and boot or press a key immediately after reset button is released and select the serial bootstrap mode. The serial bootstrap is primarily for loading CF initialization software to set up a new CF disk.
 
 ### Design Information
-- Schematic
-
-- Gerber photoplots
-
-- Bill of Materials
-
-- CPLD equations
-
+- [~~ZRCC Rev1.0 schematic~~](zrcc1_bom.pdf) <- this is rev1.0 schematic that requires an engineering change
+- [ZRCC Rev1.1 schematic](zrcc_rev1_1_scm.pdf) <- this is the current schematic
+- [~~Gerber photoplots, rev1.0~~](zrcc_singlepcb_rev1.zip) <- this Gerber requires an engineering change.
+- [Gerber photoplots, rev1.1](zrcc_rev1.1_gerber_single.zip) <- this is the current Gerber photoplots
+- [Bill of Materials](zrcc1_bom.pdf)
+- [CPLD design](zrcc_rev1_cpld_design_files.zip) files
 - Memory map
-
 ### Software
 - ZRCC monitor
 
