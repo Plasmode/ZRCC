@@ -8,7 +8,8 @@ Refer to the Pictorial Assembly Guide for step-by-step assembly of the board
 Once the board is fully assembled and populated with IC, continue to the steps below.
 
 ### Operate an assembled and tested ZRCC
-![rev1_1_topview](rev1.0_rev1.1/ZRCC_rev1_1_topview.jpg)
+![rev1_1_topview](../ZRCC_rev1_1_topview.jpg)
+![rev1_1_annotated](../zrcc_rev1_1_topview_annotated.jpg)
 
 ZRCC requires regulated 5V, 250mA power from a 2.1mmX5.5mm power plug. The center lead is 5V and the barrel is ground. ZRCC also requires an USB-to-serial adapter. The inexpensive 6-pin CP2102 adapter is recommended because ZRCC's serial port header is design specifically for it.
 
