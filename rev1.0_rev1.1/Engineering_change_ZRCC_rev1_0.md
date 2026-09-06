@@ -1,0 +1,12 @@
+# Engineering Change for ZRCC rev1
+
+Revision 1 of ZRCC contains a design error that swapped the chip select signals to the 128Kx8 RAM. The following photos show the correction required.
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_scm_rev1_ec.jpg
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_rev1ec_comp.jpg
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_rev1ec_solder.jpg
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_rev1ecw_solder.jpg
+
