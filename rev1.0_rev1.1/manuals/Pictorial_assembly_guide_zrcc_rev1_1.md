@@ -1,0 +1,48 @@
+# Pictorial Assembly Guide for ZRCC, rev 1.1
+
+For ease of assembly, the lowest height components are installed first.
+
+Bare PC board
+Component side
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_comp.jpg
+
+Solder side
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_solder.jpg
+
+Install resistors first
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_res.jpg
+
+Install IC sockets next
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_socket.jpg
+
+Install capacitors
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_cap.jpg
+
+Observe the polarity of 10uF Tantalum capacitor and LED
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_longer_lead_is_plus.jpg
+
+Install remaining hardware
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_led.jpg
+
+Install PLCC socket last
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_plcc.jpg
+
+Completed ZRCC board, component side
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_dsc_57260512.jpg
+
+Completed ZRCC board, solder side
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_dsc_57270512.jpg
+
+Populated ZRCC, ready to power up
+
+www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_rev1_1_populated.jpg
