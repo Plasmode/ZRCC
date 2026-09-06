@@ -26,6 +26,7 @@ go to address: 0x
 Enter the 4 hexadecimal address values. Confirm the command execution with a carriage return or abort the command with other keystroke.
 ```
 ### R
+```
 read CFdisk track:0x
 
 Enter the 2 hexadecimal digits for the track number and 2 hex digits for the sector value. The content of the selected track/sector will be displayed as 512-byte data block. Press carriage return for next sector or any other key to return to command prompt.
@@ -66,31 +67,31 @@ Enter the 2 hexadecimal digits for the track number and 2 hex digits for the sec
 Data NOT same as previous read
 
 carriage return for next sector, any other key for command prompt
-
-D
-display memory from 4 hexadecimal digits start address to 4 hexadecimal end address. If start address is greater than the end address, only 1 line (16 bytes) of data will be displayed.
+```
+### D
+```display memory from 4 hexadecimal digits start address to 4 hexadecimal end address. If start address is greater than the end address, only 1 line (16 bytes) of data will be displayed.
 
 D 0400 0420
 
 0400 : C3 09 04 88 B0 FB 00 00 00 31 FF 0F 0E 08 2E FF
 0410 : ED 6E DB E8 32 03 04 3E B0 D3 E8 DB E8 32 04 04
 0420 : 2E 00 ED 6E D3 A0 CD 54 0A 3E E2 D3 10 3E 80 D3
-
-I
-
+```
+### I
+```
 Read from I/O port and display the value in hexadecimal value
 
 input from port e8
 Value=40
-
-O
-
+```
+### O
+```
 Output hexadecimal value to port in hexadecimal value
 
 output 23 to port e8
-
-L
-
+```
+### L
+```
 List memory in Intel Hex format. Enter the 4 hexadecimal start address and 4 hexadecimal end address. If start address is greater than the end address, only 1 line (16 bytes) of data will be displayed in the Intel Hex format.
 
 list memory as Intel Hex, start address=1000 end address=1100
@@ -111,19 +112,19 @@ list memory as Intel Hex, start address=1000 end address=1100
 :1010E000FF9880322391EC4FA00CE88CF1F824FC9F
 :1010F000FDE0F8B2CA8BADBD0BEC3C3CFE03020137
 :00000001FF
-
-Z
-zero memory
+```
+### Z
+```zero memory
 press Return to execute command
 
 Fill memory from 0xC000 to 0xFFFE and from 0x0 to 0xAFFF with 0x0. Press carriage return to confirm the command execution; press other key to abort the command
-
-F
-fill memory with 0xFF
+```
+### F
+```fill memory with 0xFF
 press Return to execute command
 
 Fill memory from 0xC000 to 0xFFFE and from 0x0 to 0xAFFF with 0xFF. Press carriage return to confirm the command execution; press other key to abort the command
-
+```
 T
 test memory
 press Return to execute command
