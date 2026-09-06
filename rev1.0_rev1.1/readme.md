@@ -26,7 +26,7 @@ Because it takes a moment for the CF disk to be ready after reset, the user can 
 - [Gerber photoplots, rev1.1](zrcc_rev1.1_gerber_single.zip) <- this is the current Gerber photoplots
 - [Bill of Materials](zrcc1_bom.pdf)
 - [CPLD design](zrcc_rev1_cpld_design_files.zip) files
-- Memory map
+- [Memory map](manuals/Memory_map_ZRCC_rev1_1.md)
 ### Software
 - ZRCC [Serial bootstrap loader](software/zrcc_rev1_software_serialloader_rev01.zip). Enable serial bootstrap and load this file first (note: enable binary file load for this file only). This is a 256-byte hex file loader that loads a hex file to memory at 0xB400 and jump into 0xB400 when loading is completed. Note, this first step can be tricky. Here is additional instruction on how to enable serial bootstrap mode.
 - [ZRCC monitor, rev0.3](software/zrcc_rev1_software_monitor_rev03.zip). Load this file with the serial bootstrap loader
