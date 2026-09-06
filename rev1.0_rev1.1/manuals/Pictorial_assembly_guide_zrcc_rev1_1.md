@@ -5,34 +5,42 @@ For ease of assembly, the lowest height components are installed first.
 Bare PC board
 Component side
 
+![blanktop](zrcc_v11_blank_comp.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_comp.jpg
 
 Solder side
 
+![blanksolder](zrcc_v11_blank_solder.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_solder.jpg
 
 Install resistors first
 
+![resistor](zrcc_v11_res_comp.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_res.jpg
 
 Install IC sockets next
 
+![socket](zrcc_v11_socket.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_socket.jpg
 
 Install capacitors
 
+![capacitor](zrcc_v11_cap.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_cap.jpg
 
 Observe the polarity of 10uF Tantalum capacitor and LED
 
+![lead polarity](longer_lead_is_plus.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_longer_lead_is_plus.jpg
 
 Install remaining hardware
 
+![full_comp](zrcc_rev11_fully_assembled.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_led.jpg
 
 Install PLCC socket last
 
+![fully_assembled](zrcc_rev11_fully_assembled.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_v11_plcc.jpg
 
 Completed ZRCC board, component side
@@ -41,8 +49,10 @@ www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builder
 
 Completed ZRCC board, solder side
 
+![fully_solder](zrcc_rev11_fully_assembled_solder.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_dsc_57270512.jpg
 
 Populated ZRCC, ready to power up
 
+![populated](zrcc_rev1_1_populated.jpg)
 www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrcc_zrcc1_zrcc_rev1_1_populated.jpg
