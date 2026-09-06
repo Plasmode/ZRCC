@@ -20,12 +20,13 @@ If CF READY is detected, it jumps into the CF bootstrap routine that reads the 2
 Because it takes a moment for the CF disk to be ready after reset, the user can wait a second for the CF disk to be ready and boot or press a key immediately after reset button is released and select the serial bootstrap mode. The serial bootstrap is primarily for loading CF initialization software to set up a new CF disk.
 
 ### Design Information
-- [~~ZRCC Rev1.0 schematic~~](zrcc1_bom.pdf) <- this is rev1.0 schematic that requires an engineering change
-- [ZRCC Rev1.1 schematic](zrcc_rev1_1_scm.pdf) <- this is the current schematic
+- [~~ZRCC Rev1.0 schematic~~](zrcc1_bom.pdf) <- this is rev1.0 schematic that requires an engineering change.
+- [ZRCC Rev1.1 schematic](zrcc_rev1_1_scm.pdf) <- this is the current schematic.
 - [~~Gerber photoplots, rev1.0~~](zrcc_singlepcb_rev1.zip) <- this Gerber requires an engineering change.
-- [Gerber photoplots, rev1.1](zrcc_rev1.1_gerber_single.zip) <- this is the current Gerber photoplots
+- [Gerber photoplots, rev1.1](zrcc_rev1.1_gerber_single.zip) <- this is the current Gerber photoplots.
+- [Engineering change for rev1.0 of ZRCC](Engineering_change_ZRCC_rev1_0.md) only.
 - [Bill of Materials](zrcc1_bom.pdf)
-- [CPLD design](zrcc_rev1_cpld_design_files.zip) files
+- [CPLD design](zrcc_rev1_cpld_design_files.zip) files.
 - [Memory map](manuals/Memory_map_ZRCC_rev1_1.md)
 ### Software
 - ZRCC [Serial bootstrap loader](software/zrcc_rev1_software_serialloader_rev01.zip). Enable serial bootstrap and load this file first (note: enable binary file load for this file only). This is a 256-byte hex file loader that loads a hex file to memory at 0xB400 and jump into 0xB400 when loading is completed. Note, this first step can be tricky. Here is additional instruction on how to enable serial bootstrap mode.
