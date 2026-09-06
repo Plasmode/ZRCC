@@ -6,8 +6,7 @@ ZRCCMon is the monitor program for ZRCC. Once installed in track 0, sector 0xF8-
 ZRCCMon is a simple monitor with the following single-key commands. Except when noted, the commands may be entered in upper or lower cases. In the following description, command entered is in bold, the response is in italic
 
 ### H
-```
-help
+```help
 G <addr> CR
 R <track> <sector>
 D <start addr> <end addr>
@@ -20,8 +19,7 @@ B <options> CR
 C <options> CR
 ```
 ### G
-```
-go to address: 0x
+```go to address: 0x
 
 Enter the 4 hexadecimal address values. Confirm the command execution with a carriage return or abort the command with other keystroke.
 ```
