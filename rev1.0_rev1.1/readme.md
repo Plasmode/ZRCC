@@ -43,9 +43,9 @@ Because it takes a moment for the CF disk to be ready after reset, the user can 
 - [Image of CF](software/zrcc_cf_installed.zip) installed using the above TeraTerm macro file. Unzip the file and use disk copy tool like Win32DiskImager to copy the image to CF disk 64MB or larger
 
 ### Manuals
-- Getting started with ZRCC
-- ZRCC Monitor User manual
-- Pictorial Assembly Guide for ZRCC, rev 1
+- [Getting started with ZRCC]((manuals/Getting%20Started%20with%20ZRCC.md)
+- ZRCC Monitor [User manual](manuals/ZRCC_monitor_user_manual.md)
+- [Pictorial Assembly Guide](manuals/Pictorial_assembly_guide_zrcc_rev1_1.md) for ZRCC, rev 1
 - Installing a new CF disk. Only need to do this once. The CF disk effectively serve as the system EPROM. This installation process loads the CF disk.
 - CF Layout map. This document shows where various software are stored on the compact flash disk.
 - Video of installing a new CF disk using a TeraTerm macro.
