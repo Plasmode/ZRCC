@@ -14,7 +14,7 @@ Recall there is a tiny ROM (64bytes) in CPLD that can load from either CF disk o
 9. type 'save 17 XMODEM.com' to create the first CP/M22 file in the new CF disk
 10. Type 'xmodem unarj.com /r/z1' to copy a decompression program to CF disk
 11. Type 'xmodem cpm2.arj /r/z1' to copy compressed CP/M22 distribution files to CF disk
-12 Type 'unarj e cpm2' to decompress CP/M22 distribution files to CF disk
+12. Type 'unarj e cpm2' to decompress CP/M22 distribution files to CF disk
 13. With CF bootstrap in place and CP/M22 installed, now I can just turn on power and type 'b2' and I'm in CP/M.
 TeraTerm macro. The above procedures can be automated with a macro in TeraTerm, a terminal emulator running in Windows environment. To run the macro, unzip the files into c:\teraterm\zrcc file folder and run the macro file 'newCF.ttl' in TeraTerm.
 
