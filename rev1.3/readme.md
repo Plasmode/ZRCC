@@ -1,3 +1,4 @@
+# ZRCC Rev1.3
 ZRCC rev1.3 replaced the 55nS 128K RAM with 25 nS RAM and change the IDE44 interface to accept disk-on-module. Rev1.3 explores overclocking Z80 to 33MHz.
 
 ![rev1.3top](ZRCC_rev1_3_topview.jpg)
@@ -20,13 +21,12 @@ ZRCC rev1.3 replaced the 55nS 128K RAM with 25 nS RAM and change the IDE44 inter
 - CPLD design file for [29.5MHz](zrcc_r1_3_CPLD_design_files_29_5m_set_feature_0x81.zip) clock
 
 ### Software for 29.5MHz clock
-- ZRCC Serial bootstrap loader. Enable serial bootstrap and load this file first (note: enable binary file load for this file only). This is a 256-byte hex file loader that loads a hex file to memory at 0xB400 and jump into 0xB400 when loading is completed. Note, this first step can be tricky. Here is additional instruction on how to enable serial bootstrap mode.
-
+- ZRCC [Serial bootstrap loader](Software_29MHz/zrcc_r1_3_software_serloader_29_5mhz.zip). Enable serial bootstrap and load this file first (note: enable binary file load for this file only). This is a 256-byte hex file loader that loads a hex file to memory at 0xB400 and jump into 0xB400 when loading is completed. Note, this first step can be tricky. Here is additional instruction on how to enable serial bootstrap mode.
 - ZRCC monitor, rev0.4. Load this file with the serial bootstrap loader
 
-- CFBootLoader. This boot loader is stored in master boot record of a CF disk. When in CF bootstrap mode, ZRCC reads in this program located in master boot record to location 0xB000 and jump into it. The CF bootloader, in turn, loads 3K bytes worth of data located in track 0, sector 0xF0 to 0xF6 of a CF disk into 0xB400 and jump into 0xB400. Beside the CFBootLoader program itself, this file contains two installation programs. Located at 0xB200 is the installation program for CFBootloader. At ZRCC monitor prompt, type 'gb200' will install CFBootLoader in the master boot record. Located at 0xB300 is the installation program for ZRCC Monitor. Type 'gb300' will install the current monitor into track 0, sector 0xF8-0xFD of the CF disk.
+- [CFBootLoader](Software_29MHz/zrcc_r1_3_software_cfbootloader_29mhz.zip). This boot loader is stored in master boot record of a CF disk. When in CF bootstrap mode, ZRCC reads in this program located in master boot record to location 0xB000 and jump into it. The CF bootloader, in turn, loads 3K bytes worth of data located in track 0, sector 0xF0 to 0xF6 of a CF disk into 0xB400 and jump into 0xB400. Beside the CFBootLoader program itself, this file contains two installation programs. Located at 0xB200 is the installation program for CFBootloader. At ZRCC monitor prompt, type 'gb200' will install CFBootLoader in the master boot record. Located at 0xB300 is the installation program for ZRCC Monitor. Type 'gb300' will install the current monitor into track 0, sector 0xF8-0xFD of the CF disk.
 
-- SCMonitor+StarTrek. This is Steve Cousin's SCMonitor ported to ZRCC. This is Steve Cousin's homepage. As an extra bonus, it includes the StarTrek program in BASIC. To install SCMonitor+StarTrek, send scmonitor_startrek.hex to ZRCC and type 'c1' to install it in track 0 of CF disk. Once it is installed, type 'b1' to load and run SCMonitor. To run Startrek in BASIC, type 'wbasic', then 'run'. Have fun! Youtube video of running Startrek in ZRCC using a TeraTerm macro file. This is the TeraTerm macro program
+- [SCMonitor+StarTrek](Software_29MHz/zrcc_r1_3_software_scmonitor_startrek_29_5mhz.zip). This is Steve Cousin's SCMonitor ported to ZRCC. This is Steve Cousin's homepage. As an extra bonus, it includes the StarTrek program in BASIC. To install SCMonitor+StarTrek, send scmonitor_startrek.hex to ZRCC and type 'c1' to install it in track 0 of CF disk. Once it is installed, type 'b1' to load and run SCMonitor. To run Startrek in BASIC, type 'wbasic', then 'run'. Have fun! Youtube video of running Startrek in ZRCC using a TeraTerm macro file. This is the TeraTerm macro program
 
 - CP/M2.2 BIOS/CCP/BDOS. This is CP/M2.2 BIOS/CCP/BDOS all in a file. To install it, send cpm22all.hex to ZRCC and type 'c2' to install it in track 0 of CF disk. Once it is installed, type 'b2' to load and run CP/M2.2
 
