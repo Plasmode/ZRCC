@@ -41,11 +41,11 @@ ZRCC rev1.3 replaced the 55nS 128K RAM with 25 nS RAM and change the IDE44 inter
 
 ### Procedure for checking out overclocked Z80
 Sweep supply voltage between 4.75V and 5.25V while running the built-in memory test
-Initialize and upload all software to a new DOM disk using a TeraTerm installation macro.
+Initialize and upload all software to a new DOM disk using a [TeraTerm installation macro](Software_29MHz/zrcc_r1_3_software_29m_install_all.zip).
 Set voltage to 5.0V, boot into CP/M2.2, run “pip c:=b:*.*[v]”, where drive C is an empty drive and drive B contains CP/M2.2 distribution
 Use XMODEM to transfer large (megabyte) file.
 Set voltage to 5.0V, run zexall.com. It should pass with no error. For 33MHz Z80, it took about 27 minutes to complete zexall test.
 Run ASCII mandelbrot benchmark, 'mbasic80 asciiart.txt'. It should complete in 40 seconds
-Boot into SCMonitor and play a game of Startrek using the TeraTerm macro.
+Boot into SCMonitor and play a game of Startrek using the [TeraTerm macro](Software_29MHz/zrcc_r1_3_software_startrek_teraterm_macro.zip).
 Compile and run a “Hello World” C program using Hitech C v3.09
 builderpages/plasmo/z
