@@ -14,13 +14,10 @@ ZRCC rev1.3 replaced the 55nS 128K RAM with 25 nS RAM and change the IDE44 inter
 
 ![rev1.3annotated](zrcc_r1_3_topview_annotated.jpg)
 ### Design Files
-- Schematic
-
-- Gerber photoplots
-
-- CPLD design file for 33MHz operation
-
-- CPLD design file for 29.5MHz clock
+- [Schematic](zrcc_rev1_3_scm.pdf)
+- [Gerber photoplots](zrcc_rev1.3_smt_ram_gerber.zip)
+- CPLD design file for [33MHz](zrcc_r1_3_CPLD_design_files_33mhz.zip) operation
+- CPLD design file for [29.5MHz](zrcc_r1_3_CPLD_design_files_29_5m_set_feature_0x81.zip) clock
 
 ### Software for 29.5MHz clock
 - ZRCC Serial bootstrap loader. Enable serial bootstrap and load this file first (note: enable binary file load for this file only). This is a 256-byte hex file loader that loads a hex file to memory at 0xB400 and jump into 0xB400 when loading is completed. Note, this first step can be tricky. Here is additional instruction on how to enable serial bootstrap mode.
